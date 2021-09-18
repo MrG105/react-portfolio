@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function AboutMe() {
     const [pages] = useState([
         {
-            name: "about me"
+            name: "About Me"
         }
     ]);
     const [currentPage] = useState(pages[0]);
