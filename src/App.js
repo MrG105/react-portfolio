@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
+import Page from "./components/Page"
 import Project from "./components/Project";
+
 
 import './App.css';
 
@@ -19,11 +21,11 @@ function App() {
   return (
     <div>
       <Header>
-        <Nav
+        <Navigation
           pages = {pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
-          ></Nav>
+          ></Navigation>
       </Header>
       <main>
         <Page currentPage={currentPage}></Page>
