@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Page from "./components/Page"
-import Project from "./components/Project";
+// import Project from "./components/Project";
 
 
 import './App.css';

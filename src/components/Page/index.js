@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "../AboutMe";
 import PageContent from "../PageContent";
-// import Portfolio from '../Portfolio';
+import Portfolio from '../Portfolio';
 // import Contact from '../Contact';
 // import Resume from '../Resume';
 
@@ -11,8 +11,8 @@ function Page({ currentPage }) {
         switch (currentPage.name) {
             case 'about me':
                 return <AboutMe />;
-            // case 'portfolio':
-                // return <Portfolio />;
+            case 'portfolio':
+                return <Portfolio />;
             // case 'contact':
                 // return <Contact />;
             // case 'resume':
