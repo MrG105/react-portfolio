@@ -77,7 +77,7 @@ function Portfolio() {
             repo: 'https://github.com/MrG105/Password-Generator'
         },
         {
-            name: 'Code Refactor',
+            name: 'Code-Refactor',
             description: 'Introduction to HTML, refactoring existing code to clean it up.',
             link: 'https://mrg105.github.io/Code-Refactor-wk1',
             repo: 'https://github.com/MrG105/Code-Refactor-wk1'

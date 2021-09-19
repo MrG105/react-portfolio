@@ -1,34 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Navigation(props) {
-    const {
-        pages = [],
-        setCurrentPage,
-        currentPage,        
-    } = props;
-
+function Navigation() {
     return (
-        <nav className = "navbar navbar-expand-lg navbar-light fixed-top" id="navBar">
-            <div className = "container">
-                <a className = "navbar-brand js-scroll-trigger" >GUTIERREZ</a>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul className ="navbar-nav ml-auto">
-                        {pages.map((Page) => (
-                            <li
-                                className={`nav-item nav-link js-scroll-trigger ${currentPage.name === Page.name && 'active'}`}
-                                key={Page.name}>
-                            <span
-                                onClick={() => setCurrentPage(Page)}
-                                >
-
-                            </span>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-
-            </div>
-
+        <nav className="navbar">
+            <ul className="flex-row">
+                <li className="mx-2">
+                    <Link to="/about">About Me</Link>
+                </li>
+                <li className="mx-2">
+                    <Link to="/portfolio">Portfolio</Link>
+                </li>
+                <li className="mx-2">
+                    <Link to="/contact">Contact</Link>
+                </li>
+                <li className="mx-2">
+                    <Link to="/resume">Resume</Link>
+                </li>
+            </ul>
         </nav>
     )
 }

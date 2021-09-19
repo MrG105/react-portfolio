@@ -21,11 +21,11 @@ function App() {
   return (
     <div>
       <Header>
-        <Navigation
+        {/* <Navigation
           pages = {pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
-          ></Navigation>
+          ></Navigation> */}
       </Header>
       <main>
         <Page currentPage={currentPage}></Page>
