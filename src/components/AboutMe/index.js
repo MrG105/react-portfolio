@@ -1,4 +1,6 @@
 import React from "react";
+import mountains from '../../assets/img/portfolio/mountains.jpg'
+import Image from 'react-bootstrap/Image'
 
 function AboutMe() {
 
@@ -7,6 +9,7 @@ function AboutMe() {
             <div className="container my-auto">
                 <div className="row">
                     <div className="col-lg-10 mx-auto">
+                        <Image src={mountains} alt="Big Mountains" roundedCircle />
                         <h1>About Me</h1>
                         <hr className="my-4" />
                         <p className="mb-5">My name is Gabriel Gutierrez and I am slowly understanding the world of Full Stack Web Development.  I have spent the last few years of my life as an educator, working primarily with early childhood development.  I have a Bachelors of Arts in Interdisciplinary Studies from the University of Texas at San Antonio.  This portfolio is a good way to keep track of the progress made throughout the journey, beginning with simple code refactors and working my way up to more and more complex projects. I plan to keep updating this portfolio as my journey continues.</p>
