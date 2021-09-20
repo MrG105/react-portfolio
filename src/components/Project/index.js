@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'react-bootstrap/Image'
 
 
 function Project({ project }) {
@@ -8,7 +7,7 @@ function Project({ project }) {
     return (
         <div className= "col-lg-3 col-sm-5">
             <div className="portfolio-container" key={name}>
-                <Image
+                <img
                     src={require(`../../assets/img/portfolio/${name}.PNG`).default}
                     alt={name}
                    fluid
