@@ -1,31 +1,33 @@
 import React from "react";
 import AboutMe from "../AboutMe";
-import PageContent from "../PageContent";
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-// import Resume from '../Resume';
+import Resume from '../Resume';
+import { Switch, Route } from 'react-router-dom'
 
-function Page({ currentPage }) {
+function Page() {
     
-    const renderPage = () => {
-        switch (currentPage.name) {
-            case 'about me':
-                return <AboutMe />;
-            case 'portfolio':
-                return <Portfolio />;
-            case 'contact':
-                return <Contact />;
-            // case 'resume':
-            //     return <Resume />;
-            default:
-                return <AboutMe />
-        }
-    };
-
     return (
         <section>
-            <PageContent>{renderPage()}</PageContent>
+            <Switch>
+            <Route path="/about">
+                <AboutMe/>
+            </Route>
+            <Route path="/portfolio">
+                <Portfolio/>
+            </Route>
+            <Route path="/contact">
+                <Contact/>
+            </Route>
+            <Route path="/resume">
+                <Resume/>
+            </Route>
+            <Route path="/">
+                <AboutMe/>
+            </Route>                
+        </Switch>
         </section>
+        
     )
 }
 

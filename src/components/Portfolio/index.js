@@ -9,7 +9,7 @@ function Portfolio() {
         }
     ]);
     const [currentPage] = useState(pages[0]);
-    const [projects] = useState([
+    const projects = [
         {
             name: 'Workout-Tracker',
             description: 'Fitness Tracker utilizing NoSQL, Mongoose, Morgan, Express, and Chart.js.',
@@ -29,7 +29,7 @@ function Portfolio() {
             repo: 'https://github.com/MrG105/ORM-Backend'
         },
         {
-            name: 'Employee-Management-System',
+            name: 'Employee-Tracker',
             description: 'Creating a basic Employee Tracker through Inquirer, MySQL, and Console.Table',
             link: 'https://drive.google.com/file/d/1QoRYADF2AYRwfnVh-QPRXHZ0p7eoYdPs/view',
             repo: 'https://github.com/MrG105/Employee-tracker'
@@ -82,7 +82,7 @@ function Portfolio() {
             link: 'https://mrg105.github.io/Code-Refactor-wk1',
             repo: 'https://github.com/MrG105/Code-Refactor-wk1'
         },
-    ]);
+    ];
 
     return (
         <section className='p-0'>

@@ -58,7 +58,7 @@ function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="message"
+          type="text"
           placeholder="Leave a Message"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>

@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Page from "./components/Page"
 // import Project from "./components/Project";
+import { BrowserRouter as Router } from 'react-router-dom'
 
 
 import './App.css';
@@ -19,19 +20,21 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div>
-      <Header>
-        {/* <Navigation
-          pages = {pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-          ></Navigation> */}
-      </Header>
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header>
+          <Navigation
+            pages = {pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+            ></Navigation>
+        </Header>
+        <main>
+          <Page/>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   )
   
     
