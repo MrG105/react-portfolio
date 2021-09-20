@@ -1,14 +1,9 @@
-import React, { useState} from "react";
+import React from "react";
 import Project from "../Project";
 
 
 function Portfolio() {
-    const [pages] = useState([
-        {
-            name: "Portfolio"
-        }
-    ]);
-    const [currentPage] = useState(pages[0]);
+    
     const projects = [
         {
             name: 'Workout-Tracker',
@@ -85,11 +80,11 @@ function Portfolio() {
     ];
 
     return (
-        <section className='p-0'>
+        <section>
             <div className="container-fluid p-0">
-                <h1 className="margin-top text-center">{currentPage.name}</h1>
+                <h1 className="margin-top text-center">Portfolio</h1>
                 <hr className="my-4" />
-                <div className="row no-gutters popup-gallery">
+                <div className="row">
 
                     {projects.map((project, idx) => (
                         <Project

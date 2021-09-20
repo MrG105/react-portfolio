@@ -1,22 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
 // https://docs.google.com/document/d/1UBSH_92XyrwN3N9fJzqJfp_Jtjh3smQ-QKCSTnWBp0k/edit?usp=sharing
 
 function Resume() {
-    const [pages] = useState([
-        {
-            name: "Resume"
-        }
-    ])
-
-    const currentPage = useState(pages[0]);
-
+    
     return(
         <section>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 mx-auto mb-4">
-                        <h1 className="text-center">{currentPage.name}</h1>
+                        <h1 className="text-center">Resume</h1>
+                        <hr className="my-4" />
+
                         <h3>Current Understandings In:</h3>
                         <h4>Front-End</h4>
                         <ul>
@@ -42,7 +37,7 @@ function Resume() {
 
                         <p className="text-center">
                             For a link to my Resume, <a href = "https://docs.google.com/document/d/1UBSH_92XyrwN3N9fJzqJfp_Jtjh3smQ-QKCSTnWBp0k/edit?usp=sharing">Click Here</a>
-"
+
                         </p>
                     </div>
                 </div>

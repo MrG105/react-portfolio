@@ -37,38 +37,49 @@ function Contact() {
   };
 
   return (
-    <div>
-      <p>Hello {name}</p>
-      <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Leave a Message"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
+    <section>
+      <div className="container my-auto">
+        <div className="row">
+          <div >
+            <h1 className="margin-top text-center">Contact Me </h1>
+            <hr className="mx-auto" />
+            <p className="text-center">Hello {name}</p>
+            <form className="form col-lg-10 mx-auto text-center ">
+              <input
+                value={email}
+                name="email"
+                onChange={handleInputChange}
+                type="email"
+                placeholder="email"
+              />
+              <input
+                value={name}
+                name="name"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="name"
+              />
+              <textarea
+                value={message}
+                name="message"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Leave a Message"
+                cols="49"
+                rows="4"
+              />
+              <hr />
+              <button type="button" className="btn-primary" onClick={handleFormSubmit}>Submit</button>
+            </form>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+          </div>
         </div>
-      )}
-    </div>
+      </div>
+    </section>
   );
 }
 
