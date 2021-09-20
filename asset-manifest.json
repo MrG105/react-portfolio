@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.874dcfe7.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8c73677e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8c73677e.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4e48dbea.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4e48dbea.js.map",
+    "static/js/2.19fb4c45.chunk.js": "/react-portfolio/static/js/2.19fb4c45.chunk.js",
+    "static/js/2.19fb4c45.chunk.js.map": "/react-portfolio/static/js/2.19fb4c45.chunk.js.map",
+    "static/js/3.7c633a07.chunk.js": "/react-portfolio/static/js/3.7c633a07.chunk.js",
+    "static/js/3.7c633a07.chunk.js.map": "/react-portfolio/static/js/3.7c633a07.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.874dcfe7.chunk.css.map": "/react-portfolio/static/css/main.874dcfe7.chunk.css.map",
+    "static/js/2.19fb4c45.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.19fb4c45.chunk.js.LICENSE.txt",
+    "static/media/Code-Quiz.PNG": "/react-portfolio/static/media/Code-Quiz.bd02f603.PNG",
+    "static/media/Code-Refactor.PNG": "/react-portfolio/static/media/Code-Refactor.d7ac835e.PNG",
+    "static/media/Day-Planner.PNG": "/react-portfolio/static/media/Day-Planner.3638ed0e.PNG",
+    "static/media/E-Commerce-Backend.PNG": "/react-portfolio/static/media/E-Commerce-Backend.1aa99d09.PNG",
+    "static/media/Employee-Tracker.PNG": "/react-portfolio/static/media/Employee-Tracker.470312f2.PNG",
+    "static/media/Old-Portfolio.PNG": "/react-portfolio/static/media/Old-Portfolio.bfcb0359.PNG",
+    "static/media/Password-Generator.PNG": "/react-portfolio/static/media/Password-Generator.434368a8.PNG",
+    "static/media/Project-Stormhouse.PNG": "/react-portfolio/static/media/Project-Stormhouse.6e4d960c.PNG",
+    "static/media/Readme-Generator.PNG": "/react-portfolio/static/media/Readme-Generator.cba365f7.PNG",
+    "static/media/Team-Profile-Generator.PNG": "/react-portfolio/static/media/Team-Profile-Generator.6b0c42cc.PNG",
+    "static/media/Weather-Dashboard.PNG": "/react-portfolio/static/media/Weather-Dashboard.f5301b0a.PNG",
+    "static/media/Workout-Tracker.PNG": "/react-portfolio/static/media/Workout-Tracker.689c9312.PNG",
+    "static/media/mountains.cebb47b6.jpg": "/react-portfolio/static/media/mountains.cebb47b6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e48dbea.js",
+    "static/js/2.19fb4c45.chunk.js",
+    "static/css/main.874dcfe7.chunk.css",
+    "static/js/main.8c73677e.chunk.js"
+  ]
+}
