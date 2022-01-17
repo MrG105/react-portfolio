@@ -41,9 +41,12 @@ function Contact() {
       <div className="container my-auto">
         <div className="row">
           <div >
-            <h1 className="margin-top text-center">Contact Me </h1>
+            <h1 className="margin-top text-center">Contact Me: </h1>
             <hr className="mx-auto" />
-            <p className="text-center">Hello {name}</p>
+            <p className="text-center">This contact form is a test with no backend currently in place.</p>
+            <p className="text-center">To contact me directly, use LinkedIn or email links in the footer.</p>
+            <p className="text-center">or email me at: mistergabriel105@gmail.com</p>
+            <p className="text-center">Hello    {name}</p>
             <form className="form col-lg-10 mx-auto text-center ">
               <input
                 value={email}
