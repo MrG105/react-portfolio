@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.874dcfe7.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8c73677e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8c73677e.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4e48dbea.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4e48dbea.js.map",
-    "static/js/2.19fb4c45.chunk.js": "/react-portfolio/static/js/2.19fb4c45.chunk.js",
-    "static/js/2.19fb4c45.chunk.js.map": "/react-portfolio/static/js/2.19fb4c45.chunk.js.map",
-    "static/js/3.7c633a07.chunk.js": "/react-portfolio/static/js/3.7c633a07.chunk.js",
-    "static/js/3.7c633a07.chunk.js.map": "/react-portfolio/static/js/3.7c633a07.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.a1ea1efe.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.abda57f0.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.abda57f0.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7613672a.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7613672a.js.map",
+    "static/js/2.4052171f.chunk.js": "/react-portfolio/static/js/2.4052171f.chunk.js",
+    "static/js/2.4052171f.chunk.js.map": "/react-portfolio/static/js/2.4052171f.chunk.js.map",
+    "static/js/3.695797bf.chunk.js": "/react-portfolio/static/js/3.695797bf.chunk.js",
+    "static/js/3.695797bf.chunk.js.map": "/react-portfolio/static/js/3.695797bf.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.874dcfe7.chunk.css.map": "/react-portfolio/static/css/main.874dcfe7.chunk.css.map",
-    "static/js/2.19fb4c45.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.19fb4c45.chunk.js.LICENSE.txt",
+    "static/css/main.a1ea1efe.chunk.css.map": "/react-portfolio/static/css/main.a1ea1efe.chunk.css.map",
+    "static/js/2.4052171f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4052171f.chunk.js.LICENSE.txt",
+    "static/media/Capture.PNG": "/react-portfolio/static/media/Capture.a9009267.PNG",
     "static/media/Code-Quiz.PNG": "/react-portfolio/static/media/Code-Quiz.bd02f603.PNG",
     "static/media/Code-Refactor.PNG": "/react-portfolio/static/media/Code-Refactor.d7ac835e.PNG",
     "static/media/Day-Planner.PNG": "/react-portfolio/static/media/Day-Planner.3638ed0e.PNG",
@@ -27,9 +28,9 @@
     "static/media/mountains.cebb47b6.jpg": "/react-portfolio/static/media/mountains.cebb47b6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e48dbea.js",
-    "static/js/2.19fb4c45.chunk.js",
-    "static/css/main.874dcfe7.chunk.css",
-    "static/js/main.8c73677e.chunk.js"
+    "static/js/runtime-main.7613672a.js",
+    "static/js/2.4052171f.chunk.js",
+    "static/css/main.a1ea1efe.chunk.css",
+    "static/js/main.abda57f0.chunk.js"
   ]
 }
